@@ -5,6 +5,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "nodemon src/index.ts",
+    "dev": "yarn start"
+  },
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1"
     "dev": "nodemon src/index.ts"
   },
   "dependencies": {
